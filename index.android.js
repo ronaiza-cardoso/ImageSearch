@@ -13,12 +13,14 @@ import {
 } from 'react-native';
 
 import SearchBar from './components/searchBar'
+import ImageList from './components/imageList'
 
 export default class ImageSearch extends Component {
   render() {
     return (
       <View style={styles.container}>
           <SearchBar />
+          <ImageList />
       </View>
     );
   }
